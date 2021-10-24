@@ -9,4 +9,6 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="success_message">SIGN UP SUCCESSFULLY</string>
+    <string name="error_email_exists">NOT SUCCESSFULL</string>
 </resources>
