@@ -1,5 +1,6 @@
 package com.example.kotlinstoragedemo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -18,6 +19,7 @@ class SignUpActivity : AppCompatActivity(),View.OnClickListener {
     private  var textInputEditTextPassword:EditText?=null
     private  var textInputEditTextConfirmPassword: EditText?=null
     private var appCompatButtonRegister: Button?=null
+    private var appCompatButtonlogin: Button?=null
 //    private lateinit var appCompatTextViewLoginLink: TextView
     private lateinit var inputValidation: InputValidation
     private lateinit var databaseHelper: DatabaseHelper
@@ -36,7 +38,11 @@ class SignUpActivity : AppCompatActivity(),View.OnClickListener {
 
         // initializing the objects
 
+appCompatButtonlogin!!.setOnClickListener {
 
+    val intent=Intent(this,LoginActivity::class.java)
+    startActivity(intent)
+}
 
 
 
@@ -49,6 +55,8 @@ class SignUpActivity : AppCompatActivity(),View.OnClickListener {
         textInputEditTextPassword = findViewById(R.id.textInputEditTextPassword)
         textInputEditTextConfirmPassword = findViewById(R.id.textInputEditTextConfirmPassword)
         appCompatButtonRegister=findViewById(R.id.appCompatButtonRegister)
+        appCompatButtonlogin=findViewById(R.id.btnlogin)
+
     }
 
     private fun initListeners() {
