@@ -31,4 +31,7 @@
     <string name="error_email_exists">NOT SUCCESSFULL</string>
     <string name="error_valid_email_password">login Unsuccessfull</string>
     <string name="valid_email_password">login Successfully</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
