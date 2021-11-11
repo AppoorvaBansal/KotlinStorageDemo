@@ -8,15 +8,9 @@ import android.view.inputmethod.InputMethodManager
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
-/**
- * Created by Lalit Vasan on 9/13/2016.
- */
+
 class InputValidation
-/**
- * constructor
- *
- * @param context
- */
+
     (private val context: Context) {
 
     /**
